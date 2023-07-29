@@ -1,0 +1,155 @@
+/*# sourceMappingURL=style.css.map */
+:root {
+    --color-body:#b6cbce;
+    --color-heading:#eef3db;
+    --color-base:#033f47;
+    --color-base2:#022a30;
+    --color-brand:rgb(168, 168, 35);
+    --color-brand2:#deff58;
+    --sidbar-width:240px;
+    --font-base: "Bai Jamjuree";
+
+}
+.three{
+    display: flex;
+    flex-direction: column;
+}
+.about_one{
+    flex:1;
+}
+.about_two{
+    flex:2;
+}
+.three h2{
+    align-items: center;
+    justify-content: center;
+    margin-top: 5px;
+    margin-left: 25%;
+}
+.img_img {
+    width: 300px;
+    border-radius: 30px;
+    box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.3);
+}
+.img_about{
+float: left;
+margin-left: 35px;
+height: 250px;
+margin-bottom: 10px;
+}
+.float{
+    float: none;
+}
+.mine{
+    
+    margin-left: 30px;
+    margin-top: 30px;
+    padding: 10px ;
+    border: 1px solidwhite;
+    background-color: rgb(148, 136, 103);
+    border-radius: 30px;
+    box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.3);
+}
+.mine h3{
+    margin-bottom: 5px;
+}
+.footer{
+    background-color: aquamarine;
+    font-size: 19px;
+    font-family: sans-serif;
+    font-weight: bold;
+    padding: 5px;
+    margin-top: 5px;
+    border-radius: 10px;
+    margin-bottom: 5px;
+}
+.contact_me{
+margin-top: 10px;
+margin-left: 100px;
+
+}
+.contact{
+    float: left;
+    margin-left: 30px;
+    margin-bottom: 10px;
+}
+.contact input{
+    padding: 10px;
+    width: 300px;
+    border-radius: 15px;
+    background-color: #172629;
+    border: none;
+    font-size: 15px;
+    font-weight: bold;
+    font-family: sans-serif;
+    color:white;
+    box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.3);
+}
+.contact_form{
+    margin-left: 125px;
+    margin-bottom: 10px;
+}
+.contact_form input{
+    width: 670px;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: #172629;
+    border: none;
+    font-size: 15px;
+    font-weight: bold;
+    font-family: sans-serif;
+    color:white;
+    box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.3);
+}
+.contact_form textarea{
+    width: 670px;
+    padding: 10px;
+    border-radius: 10px;
+    margin-left: 4px;
+    background-color: #172629;
+    border: none;
+    font-size: 15px;
+    font-weight: bold;
+    font-family: sans-serif;
+    color:white;
+    box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.3);
+}
+.contact_title{
+    margin-top: 5px;
+    margin-left: 40px;
+    font-size: 40px;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+.contact_form .btn{
+    background-color:#cdf335;
+    margin-left: 15px;
+    font-size: 15px;
+    font-weight: bold;
+    font-family: sans-serif;
+    color:white;
+    border: none;
+    box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.3);
+
+}
+.btn:hover{
+    background-color:#033f47;
+}
+.contact_form label{
+    font-size: 15px;
+    font-family: sans-serif;
+    font-weight: bold;
+    
+}
+
+.fade-in {
+    opacity: 0;
+    animation: fadeIn 5s forwards;
+  }
+  
+  @keyframes fadeIn {
+    to {
+      opacity: 1;
+    }
+  }
+  

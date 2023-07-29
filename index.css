@@ -1,0 +1,107 @@
+/*# sourceMappingURL=style.css.map */
+:root {
+    --color-body:#b6cbce;
+    --color-heading:#eef3db;
+    --color-base:#033f47;
+    --color-base2:#022a30;
+    --color-brand:rgb(168, 168, 35);
+    --color-brand2:#deff58;
+    --sidbar-width:240px;
+    --font-base: "Bai Jamjuree";
+
+}
+*{
+    margin:0;
+    padding:0;
+
+}
+body{
+    background-color: rgb(17, 73, 17);
+}
+.my_nav{
+    width: 100%;
+    height:100px;
+    background-color: rgb(122, 122, 131);
+    border-bottom: 1px black;
+}
+
+.logo{
+    width: 100px;
+    float: left;
+    margin-left: 50px;
+    margin-top: 10px;
+    border-radius: 100px;
+}
+.title{
+    float: right;
+    margin-right: 150px;
+    margin-top: 30px;
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 35px;
+    color: rgb(210, 228, 184);
+}
+.float{
+    float: none;
+}
+.one{
+    display: flex;
+    border: 1px solid red;
+    align-items: stretch;
+    width: 99%;
+    height: 99%;
+    margin-left: 5px;
+    margin-right: 2px;
+}
+.two{
+    flex: 1;
+    border: 1px solid black;
+    max-width: 20%;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: 5px;
+    margin-right: 5px;
+    background-color: bisque;
+}
+.three{
+    flex:2;
+    border: 1px solid green;
+    max-width: 90%;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: 5px;
+    margin-right: 5px;
+    background-color: bisque;
+}
+
+.links {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    margin-left: 10px;
+    flex-direction: column;
+    margin-top: 20px;
+    margin-left: 10px;
+    width: fit-content;
+    max-width: 100%;
+  }
+  .links a {
+    text-decoration: none;
+    color: #fff;
+    background-color:green;
+    padding: 10px 12px;
+    border-radius: 10px;
+    margin-bottom: 35px;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    margin-left: 15px;
+    box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.3);
+  }
+   a:hover{
+    background-color: rgb(108, 108, 150);
+  }
+  .dash{
+    align-items: center;
+    justify-content: center;
+  }
