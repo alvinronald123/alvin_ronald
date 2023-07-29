@@ -105,6 +105,67 @@ body{
     align-items: center;
     justify-content: center;
   }
+  /* Animations */
+
+.fade-in {
+    opacity: 0;
+    animation: fadeIn 1s forwards;
+}
+
+@keyframes fadeIn {
+    to {
+        opacity: 1;
+    }
+}
+
+.slide-in-left {
+    transform: translateX(-100%);
+    animation: slideInLeft 1s forwards;
+}
+
+@keyframes slideInLeft {
+    to {
+        transform: translateX(0);
+    }
+}
+
+.slide-in-right {
+    transform: translateX(100%);
+    animation: slideInRight 1s forwards;
+}
+
+@keyframes slideInRight {
+    to {
+        transform: translateX(0);
+    }
+}
+
+/* Other CSS (excluding media queries) */
+
+/* ... Your existing CSS styles ... */
+
+/* Media query for devices with a maximum width of 768px (e.g., smartphones) */
+@media (max-width: 768px) {
+    /* ... Your existing mobile view CSS styles ... */
+
+    /* Add animations for mobile view elements here */
+    .img_about,
+    .links a,
+    .contact_me,
+    .contact_form input,
+    .contact_form textarea,
+    .contact_form .btn,
+    .contact_title {
+        animation: fadeIn 1s forwards;
+    }
+
+    .title {
+        animation: slideInLeft 1s forwards;
+    }
+
+    /* Add any other mobile-specific animations here */
+}
+
 
   
   /*fghjkl*/
