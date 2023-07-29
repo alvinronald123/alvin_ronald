@@ -105,3 +105,53 @@ body{
     align-items: center;
     justify-content: center;
   }
+
+  
+  /*fghjkl*/
+
+  /* Mobile View CSS */
+
+/* Reset some styles for mobile */
+
+
+/* Add styles for mobile-specific elements if needed */
+
+/* Media query for devices with a maximum width of 768px (e.g., smartphones) */
+@media (max-width: 768px) {
+    .logo {
+        margin-left: 10px;
+        width: 80px;
+    }
+    .title {
+        margin-right: 10px;
+        font-size: 20px;
+    }
+    .links {
+        flex-direction: column;
+        align-items: center;
+    }
+    .links a {
+        width: 80%;
+        margin-left: 0;
+    }
+    .one, .two, .three {
+        margin: 5px;
+    }
+    .contact_me {
+        margin-left: 10px;
+    }
+    .contact_form input, .contact_form textarea {
+        width: 90%;
+    }
+    .contact_form .btn {
+        margin-left: 10px;
+    }
+    .contact_title {
+        font-size: 30px;
+        margin-left: 20px;
+    } 
+    .img_img{
+        margin-bottom: 5px;
+    }
+    /* Add any other mobile-specific styles here */
+}
